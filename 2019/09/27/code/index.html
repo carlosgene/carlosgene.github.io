@@ -6,18 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives | 成为大英雄</title>
+  <title>大作业 | 成为大英雄</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="NONE">
-<meta property="og:type" content="website">
-<meta property="og:title" content="成为大英雄">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+  <meta name="description" content="C语言大作业图书管理系统">
+<meta name="keywords" content="代码,数据结构">
+<meta property="og:type" content="article">
+<meta property="og:title" content="大作业">
+<meta property="og:url" content="http://yoursite.com/2019/09/27/code/index.html">
 <meta property="og:site_name" content="成为大英雄">
-<meta property="og:description" content="NONE">
+<meta property="og:description" content="C语言大作业图书管理系统">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-09-27T01:32:42.649Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="成为大英雄">
-<meta name="twitter:description" content="NONE">
+<meta name="twitter:title" content="大作业">
+<meta name="twitter:description" content="C语言大作业图书管理系统">
   
     <link rel="alternative" href="/atom.xml" title="成为大英雄" type="application/atom+xml">
   
@@ -167,36 +169,59 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-code" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/09/27/code/" class="archive-article-date">
-  	<time datetime="2019-09-27T00:32:56.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-27</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/09/27/code/">大作业</a>
+    <h1 class="article-title" itemprop="name">
+      大作业
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2019/09/27/code/" class="archive-article-date">
+  	<time datetime="2019-09-27T00:32:56.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-27</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="C语言大作业图书管理系统"><a href="#C语言大作业图书管理系统" class="headerlink" title="C语言大作业图书管理系统"></a>C语言大作业图书管理系统</h3><a id="more"></a>
+<p>转载<a href="https://blog.csdn.net/zkd758/article/details/80427453" target="_blank" rel="noopener">本文链接：</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;stdlib.h&gt;</span><br><span class="line">#include &lt;string.h&gt;</span><br><span class="line">#define N 100</span><br><span class="line"></span><br><span class="line">typedef struct Books &#123;</span><br><span class="line">	char num[20];</span><br><span class="line">	char name[20];</span><br><span class="line">	char author[20];</span><br><span class="line">	int price;</span><br><span class="line">	int total;</span><br><span class="line">	char introduce[50];</span><br><span class="line"></span><br><span class="line">&#125;BK;</span><br><span class="line">BK bk[N];</span><br><span class="line"></span><br><span class="line">void inputBk(BK *p, int i);</span><br><span class="line">void deleteBK(char bkNum[]);</span><br><span class="line">void judge(int jdg);</span><br><span class="line">void sortInfo(BK bk[], int n);</span><br><span class="line">void swapInfo(BK *p, BK *q);</span><br><span class="line">void outputInfo(BK *p);</span><br><span class="line">void updateInfo(char bkNum[]);</span><br><span class="line">void serchInfo(char bkNum[]);</span><br><span class="line"></span><br><span class="line">int i, tmp=0, flag = 1, menu;</span><br><span class="line">void main() &#123;</span><br><span class="line">	</span><br><span class="line">	while (flag) &#123;</span><br><span class="line">		do &#123;</span><br><span class="line">			printf(&quot;############################################菜单栏######################################\n&quot;);</span><br><span class="line">			printf(&quot;请输入想要实现的功能选项\n&quot;);</span><br><span class="line">			printf(&quot;1、录入新书籍\n&quot;);</span><br><span class="line">			printf(&quot;2、删除指定书籍\n&quot;);</span><br><span class="line">			printf(&quot;3、价格从小到大排序书籍\n&quot;);</span><br><span class="line">			printf(&quot;4、修改指定书籍\n&quot;);</span><br><span class="line">			printf(&quot;5、查询指定书籍\n&quot;);</span><br><span class="line">			printf(&quot;6、退出菜单栏\n&quot;);</span><br><span class="line">			printf(&quot;############################################菜单栏######################################\n&quot;);</span><br><span class="line">			printf(&quot;请输入选项：&quot;);</span><br><span class="line">			scanf_s(&quot;%d&quot;, &amp;menu);</span><br><span class="line">		&#125; while (menu&gt;6 || menu&lt;1);</span><br><span class="line"></span><br><span class="line">		judge(menu);</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line">	getchar(); getchar(); getchar();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void judge(int jdg) &#123;</span><br><span class="line">	int n;</span><br><span class="line">	char bkNum[20];</span><br><span class="line">	switch (jdg) &#123;</span><br><span class="line">	case 1:</span><br><span class="line"></span><br><span class="line">		printf(&quot;请输入要录入书籍的个数：&quot;);</span><br><span class="line">		scanf_s(&quot;%d&quot;, &amp;n);</span><br><span class="line">		for (i = tmp; i&lt;n + tmp; i++) &#123;</span><br><span class="line">			inputBk(&amp;bk[i], i);</span><br><span class="line">		&#125;</span><br><span class="line">		tmp = n + tmp;//tmp很关键，记录数量避免多次添加，前面数据被覆盖</span><br><span class="line">		break;</span><br><span class="line">	case 2:</span><br><span class="line">		printf(&quot;请输入要删除的书号：&quot;);</span><br><span class="line"></span><br><span class="line">		scanf(&quot;%s&quot;, bkNum);</span><br><span class="line">		deleteBK(bkNum);</span><br><span class="line">		break;</span><br><span class="line">	case 3:</span><br><span class="line">		sortInfo(bk,tmp);</span><br><span class="line">		printf(&quot;排序后：\n&quot;);</span><br><span class="line">		for (i = 0; i &lt; tmp; i++) &#123;</span><br><span class="line">			outputInfo(&amp;bk[i]);</span><br><span class="line">		&#125;</span><br><span class="line">		break;</span><br><span class="line">	case 4:</span><br><span class="line">		printf(&quot;请输入要修改的书号：&quot;);</span><br><span class="line"></span><br><span class="line">		scanf(&quot;%s&quot;, bkNum);</span><br><span class="line">		updateInfo(bkNum);</span><br><span class="line">		break;</span><br><span class="line">	case 5:</span><br><span class="line">		printf(&quot;请输入要查询的书号：&quot;);</span><br><span class="line">		scanf(&quot;%s&quot;, bkNum);</span><br><span class="line">		serchInfo(bkNum);</span><br><span class="line">		break;</span><br><span class="line">	case 6:</span><br><span class="line">		flag = 0;</span><br><span class="line">		break;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void inputBk(BK *p, int i) &#123;</span><br><span class="line"></span><br><span class="line">	printf(&quot;请录入第%d本书：\n&quot;,i+1);</span><br><span class="line">	printf(&quot;请输入书号：&quot;);</span><br><span class="line">	scanf(&quot;%s&quot;,p-&gt;num);</span><br><span class="line">	printf(&quot;请输入书名：&quot;);</span><br><span class="line">	scanf(&quot;%s&quot;, p-&gt;name);</span><br><span class="line">	printf(&quot;请输入作者：&quot;);</span><br><span class="line">	scanf(&quot;%s&quot;, p-&gt;author);</span><br><span class="line">	printf(&quot;请输入单价：&quot;);</span><br><span class="line">	scanf_s(&quot;%d&quot;, &amp;(p-&gt;price));</span><br><span class="line">	printf(&quot;请输入数量：&quot;);</span><br><span class="line">	scanf_s(&quot;%d&quot;, &amp;(p-&gt;total));</span><br><span class="line">	printf(&quot;请输入简介：&quot;);</span><br><span class="line">	scanf(&quot;%s&quot;, p-&gt;introduce);</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">void deleteBK(char bkNum[]) &#123;</span><br><span class="line">	</span><br><span class="line">	int assert=0;</span><br><span class="line">	for (i = 0; i&lt;tmp; i++) &#123;</span><br><span class="line">		if (strcmp(bkNum, bk[i].num) == 0) &#123;</span><br><span class="line">			for (int j = i; j&lt;tmp - 1; j++) &#123;</span><br><span class="line">				strcpy(bk[j].num ,bk[j + 1].num);</span><br><span class="line">				strcpy(bk[j].name, bk[j + 1].name);</span><br><span class="line">				strcpy(bk[j].author, bk[j + 1].author);</span><br><span class="line">				strcpy(bk[j].introduce, bk[j + 1].introduce);</span><br><span class="line">				bk[j].price = bk[j].price;</span><br><span class="line">				bk[j].total = bk[j].total;</span><br><span class="line"></span><br><span class="line">				tmp = tmp - 1;//记录tmp数量</span><br><span class="line">				assert = 1;</span><br><span class="line">				break;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	if (assert) &#123;</span><br><span class="line">		printf(&quot;已经删除该书籍信息\n&quot;);</span><br><span class="line">	&#125;else &#123;</span><br><span class="line">		printf(&quot;没有找到该书籍\n&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line">void sortInfo(BK bk[],int n) &#123;</span><br><span class="line">	int i, j;</span><br><span class="line">	for (i = 0; i &lt; n - 1;i++) &#123;</span><br><span class="line">		for (j = 0; j &lt; n - 1-i;j++) &#123;</span><br><span class="line">			if (bk[j].price &gt; bk[j+1].price) &#123;</span><br><span class="line">				swapInfo(&amp;bk[j],&amp;bk[j+1]);</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">void swapInfo(BK *p,BK *q) &#123;</span><br><span class="line">	BK trmp;</span><br><span class="line">	trmp = *p; *p = *q; *q = trmp;</span><br><span class="line">&#125;</span><br><span class="line">void outputInfo(BK *p) &#123;</span><br><span class="line">	</span><br><span class="line">		printf(&quot;%s\t%s\t%s\t%d\t%d\t%s\n&quot;, p-&gt;num, p-&gt;name, p-&gt;author, p-&gt;price, p-&gt;total, p-&gt;introduce);</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void updateInfo(char bkNum[]) &#123;</span><br><span class="line">	</span><br><span class="line">	int assert = 0;</span><br><span class="line">	for (i = 0; i&lt;tmp; i++) &#123;</span><br><span class="line">		if (strcmp(bkNum, bk[i].num) == 0) &#123;</span><br><span class="line">			</span><br><span class="line">			printf(&quot;请修改图书馆第%d本书：\n&quot;, i + 1);</span><br><span class="line">			printf(&quot;请修改书号：&quot;);</span><br><span class="line">			scanf(&quot;%s&quot;, bk[i].num);</span><br><span class="line">			printf(&quot;请修改书名：&quot;);</span><br><span class="line">			scanf(&quot;%s&quot;, bk[i].name);</span><br><span class="line">			printf(&quot;请修改作者：&quot;);</span><br><span class="line">			scanf(&quot;%s&quot;, bk[i].author);</span><br><span class="line">			printf(&quot;请修改单价：&quot;);</span><br><span class="line">			scanf_s(&quot;%d&quot;, &amp;(bk[i].price));</span><br><span class="line">			printf(&quot;请修改数量：&quot;);</span><br><span class="line">			scanf_s(&quot;%d&quot;, &amp;(bk[i].total));</span><br><span class="line">			printf(&quot;请修改简介：&quot;);</span><br><span class="line">			scanf(&quot;%s&quot;, bk[i].introduce);</span><br><span class="line">			</span><br><span class="line">			assert = 1;</span><br><span class="line">			break;</span><br><span class="line"></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	if (assert) &#123;</span><br><span class="line">		printf(&quot;已经修改该书籍信息\n&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">	else &#123;</span><br><span class="line">		printf(&quot;没有找到该名称书籍\n&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line">void serchInfo(char bkNum[]) &#123;</span><br><span class="line">	</span><br><span class="line">	int assert = 0;</span><br><span class="line">	for (i = 0; i&lt;tmp; i++) &#123;</span><br><span class="line">		if (strcmp(bkNum, bk[i].num) == 0) &#123;</span><br><span class="line">			outputInfo(&amp;bk[i]);</span><br><span class="line"></span><br><span class="line">			assert = 1;</span><br><span class="line">			break;</span><br><span class="line"></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	if (assert) &#123;</span><br><span class="line">		printf(&quot;已经查询到该书籍信息\n&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">	else &#123;</span><br><span class="line">		printf(&quot;没有找到该名称的书籍\n&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -212,199 +237,119 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/09/27/code/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/09/27/life/" class="archive-article-date">
-  	<time datetime="2019-09-27T00:32:45.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-27</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2019/09/27/life/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">生活</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/09/27/life/">生活</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">life</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">tips</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
+        
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#C语言大作业图书管理系统"><span class="toc-number">1.</span> <span class="toc-text">C语言大作业图书管理系统</span></a></li></ol>
+                    </div>
+                </span>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
+        
+    </div>
+</aside>
+
+
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/09/27/system/" class="archive-article-date">
-  	<time datetime="2019-09-27T00:32:24.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-27</time>
-</a>
-        </div>
-    	 
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/09/27/system/">system</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/09/27/sun/" class="archive-article-date">
-  	<time datetime="2019-09-27T00:32:10.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-27</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/09/27/sun/">sun</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/09/27/monn/" class="archive-article-date">
-  	<time datetime="2019-09-27T00:32:03.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-27</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/09/27/monn/">明月松间照</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">月亮</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">moon</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/09/26/hello-world-1/" class="archive-article-date">
-  	<time datetime="2019-09-26T10:21:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-26</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/09/26/hello-world-1/">Hello World! MY FIRST BLOG</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">主页</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">hello world</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
 
 
           </div>
@@ -427,8 +372,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: [object Object],
